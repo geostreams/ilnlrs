@@ -124,6 +124,8 @@ const SmallHeader = ({ location }: Props) => {
                     component={Link}
                     to="/"
                     src={LogoApp}
+                    onClick={event =>  window.location.href='https://greatlakestogulf.org/'}
+
                 />
                 <Typography
                     component={Link}
