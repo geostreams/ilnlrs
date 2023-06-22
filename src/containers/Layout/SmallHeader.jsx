@@ -122,12 +122,13 @@ const SmallHeader = ({ location }: Props) => {
             <Toolbar className={classes.mainHeader}>
                 <Avatar
                     component={Link}
-                    to="/"
+                    to="https://greatlakestogulf.org/"
                     src={LogoApp}
+
                 />
                 <Typography
                     component={Link}
-                    to="/"
+                    to="https://greatlakestogulf.org/"
                     className={classes.headerText}
                     variant="h6"
                     noWrap
